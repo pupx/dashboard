@@ -1,3 +1,4 @@
+import 'package:dashboard/screens/dashboard/components/form_bloqueados.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -25,9 +26,16 @@ class SideMenu extends StatelessWidget {
             press: () {},
           ),
           DrawerListTile(
-            title: "Task",
+            title: "Clientes",
             svgSrc: "assets/icons/menu_task.svg",
-            press: () {},
+            press: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => FormBloqueados(),
+                ),
+              );
+            },
           ),
           DrawerListTile(
             title: "Documents",

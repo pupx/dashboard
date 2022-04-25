@@ -1,3 +1,5 @@
+import 'package:dashboard/screens/dashboard/components/form_bloqueados.dart';
+
 import 'constants.dart';
 import 'controllers/MenuController.dart';
 import 'screens/main/main_screen.dart';
