@@ -39,7 +39,6 @@ dependencies:
   fl_chart:
   provider:
   data_table_2:
-  admin:
 
 
 dev_dependencies:
